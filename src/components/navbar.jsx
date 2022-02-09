@@ -6,10 +6,10 @@ class NavBar extends React.Component {
     return (
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Quizzards</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#groups">Groups</Nav.Link>
+            <Nav.Link href="/groups">Groups</Nav.Link>
             <Nav.Link href="#messages">Messages</Nav.Link>
             <Nav.Link href="#profile">Profile</Nav.Link>
           </Nav>
