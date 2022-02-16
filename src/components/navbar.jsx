@@ -9,7 +9,7 @@ class NavBar extends React.Component {
           <Navbar.Brand href="#home">Quizzards</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="/groups">Groups</Nav.Link>
+            <Nav.Link href="#groups">Groups</Nav.Link>
             <Nav.Link href="#messages">Messages</Nav.Link>
             <Nav.Link href="#profile">Profile</Nav.Link>
           </Nav>
